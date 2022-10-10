@@ -1,5 +1,5 @@
 /**
- * This file defines an child class named HandBag.
+ * This file defines a child class named HandBag.
  * We have provided most of the code for this class, however,
  * you should implement the provided TODOs.
  *
@@ -12,8 +12,8 @@ public class HandBag extends Bag{
      * Creates a new HandBag with the given color and
      * capacity.
      *
-     * @param color
-     * @param capacity
+     * @param color the color of this HandBag
+     * @param capacity the capacity of this HandBag
      */
     public HandBag(String color, int capacity) {
         /**
@@ -34,5 +34,6 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+        super.increaseCapacity(1);
     }
 }
